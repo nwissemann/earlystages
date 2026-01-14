@@ -96,3 +96,39 @@ a{
   font-size: 14px;
   color: var(--muted);
 }
+
+.nav{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin: 18px 0 0;
+}
+
+.nav a{
+  font-family: var(--mono);
+  font-size: 13px;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--stroke);
+  background: rgba(255,255,255,.35);
+}
+
+.nav a:hover{
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(255,111,181,.12);
+}
+
+.nav a[aria-current="page"]{
+  border-color: rgba(255,111,181,.55);
+  background: rgba(255,111,181,.08);
+}
+
+.prose p{ margin: 0 0 12px; }
+.prose ul{ margin: 0; padding-left: 18px; }
+.prose li{ margin: 6px 0; }
+hr{
+  border: none;
+  border-top: 1px solid var(--stroke);
+  margin: 18px 0;
+}
