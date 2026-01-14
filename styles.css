@@ -132,3 +132,13 @@ hr{
   border-top: 1px solid var(--stroke);
   margin: 18px 0;
 }
+
+.pill-accent{
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
+
+.pill-accent:hover{
+  box-shadow: 0 0 0 4px rgba(255,111,181,.25);
+}
