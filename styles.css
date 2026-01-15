@@ -192,13 +192,13 @@ hr{
   color: var(--accent);
 }
 
-/* active main page pill (pink) — NO shadow */
+/* active main page pill (pink) */
 .nav > a[aria-current="page"],
 .nav .nav-group > a[aria-current="page"]{
   background: var(--accent);
   color: #ffffff;
   border: 1px solid #737373;
-  box-shadow: none;
+  box-shadow: 3px 3px 0 #737373;
 }
 
 /* hover for active main page pill */
@@ -221,7 +221,7 @@ hr{
   background: var(--accent);
   color: #ffffff;
   border: 1px solid #737373;
-  box-shadow: none;
+  box-shadow: 3px 3px 0 #737373;
 }
 
 /* SUBNAV = plain text on beige */
