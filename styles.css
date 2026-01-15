@@ -92,8 +92,8 @@ a{
 }
 
 .footer{
-  margin-top: 40px;
-  font-size: 14px;
+  margin-top: 56px;
+  font-size: 13px;
   color: var(--muted);
 }
 
@@ -141,4 +141,21 @@ hr{
 
 .pill-accent:hover{
   box-shadow: 0 0 0 4px rgba(255,111,181,.25);
+}
+
+.prose p{
+  margin-bottom: 16px;
+}
+
+.prose ul{
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.prose li{
+  margin-bottom: 8px;
+}
+
+.card{
+  border-color: rgba(84,84,84,.08);
 }
