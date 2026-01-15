@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>imprint – nicolas wissemann</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+
+    <meta name="description" content="Legal notice for earlystages.life" />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <main class="wrap">
+      <header class="header">
+        <a href="./" class="logo">
+          <img
+            src="./img/nick-pixel.png"
+            alt="Pixel illustration of Nicolas Wissemann"
+            class="logo-avatar"
+          />
+          <span class="logo-text">
+            <span>nicolas wissemann</span>
+            <span class="logo-sub">(or just nick)</span>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="primary">
+          <a href="./">home</a>
+          <a href="./about.html">about</a>
+          <a href="./blog.html">blog</a>
+
+          <span class="nav-group">
+            <a href="./resources.html">resources</a>
+          </span>
+        </nav>
+      </header>
+
+      <section class="card prose">
+        <h1>legal notice</h1>
+
+        <p>
+          In accordance with § 5 of the German Digital Services Act
+          (Digitale-Dienste-Gesetz – DDG), the following information is provided:
+        </p>
+
+        <h2>provider</h2>
+        <p>
+          Nicolas Wissemann
+        </p>
+
+        <h2>contact</h2>
+        <p>
+          Email:
+          <a href="mailto:nick@earlystages.life">nick@earlystages.life</a><br />
+          Website:
+          <a href="https://earlystages.life/" target="_blank" rel="noreferrer">
+            https://earlystages.life
+          </a>
+        </p>
+
+        <h2>responsible for content</h2>
+        <p>
+          Nicolas Wissemann
+        </p>
+
+        <h2>liability</h2>
+        <p>
+          As a private individual, I am not responsible for external content
+          linked on this website over which I have no control.
+        </p>
+
+        <h2>data protection</h2>
+        <p>
+          For information about how personal data is processed, please refer to
+          the <a href="./privacy.html">privacy policy</a>.
+        </p>
+      </section>
+
+      <footer class="footer">
+        <p>
+          made by nicolas wissemann ·
+          <a href="mailto:nick@earlystages.life">email</a> ·
+          <a
+            href="https://www.linkedin.com/in/nicolas-wissemann/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            linkedin
+          </a> ·
+          <a
+            href="https://earlystages.substack.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            substack
+          </a>
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
