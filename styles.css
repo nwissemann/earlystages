@@ -67,6 +67,7 @@ h1{
 
 .nav a:not([aria-current="page"]):hover{
   transform: translateY(-1px);
+  color: var(--accent);
 }
 
 .wrap{
