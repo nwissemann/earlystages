@@ -91,8 +91,8 @@ h1{
   box-shadow: none;
 
   transition:
-    transform .05s ease,
-    box-shadow .05s ease;
+    transform .08s ease-out,
+    color .12s ease;
 }
 
 .nav a[aria-current="page"]{
@@ -102,6 +102,11 @@ h1{
   border: 1px solid #737373;
 
   box-shadow: 3px 3px 0 #737373;
+}
+
+.nav a[aria-current="page"]:hover{
+  transform: translateY(-1px);
+  color: var(--text);
 }
 
 .nav a:not([aria-current="page"]):hover{
