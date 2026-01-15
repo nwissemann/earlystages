@@ -114,53 +114,54 @@ h1{
   color: var(--accent);
 }
 
-/* resources group (resources pill + inline subnav) */
+/* group resources pill + subnav */
 .nav-group{
   display: inline-flex;
   align-items: center;
-  gap: 18px;           /* space between pill and plain text links */
-  flex-wrap: wrap;     /* allow subnav to wrap on mobile */
+  gap: 18px;
+  flex-wrap: wrap;
 }
 
-/* subnav: plain text, sliding out feel */
+/* keep resources pill highlighted inside its section (on subpages) */
+.nav .nav-group > a.is-section{
+  background: var(--accent);
+  color: #ffffff;
+  border: 1px solid #737373;
+  box-shadow: none; /* no shadow */
+}
+
+/* SUBNAV = plain text on beige (not pills) */
 .subnav{
   display: inline-flex;
   align-items: center;
   gap: 22px;
   flex-wrap: wrap;
-
-  /* slide-out illusion */
-  margin-left: -6px;          /* tucks slightly “behind” the pill */
-  padding-left: 10px;
-  opacity: 0;
-  transform: translateX(-8px);
-  animation: subnavIn .18s ease-out forwards;
 }
 
-@keyframes subnavIn{
-  to{
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
+/* override pill styles for subnav links */
+.nav .subnav a{
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 2px 0;
+  border-radius: 0;
 
-/* subnav links */
-.subnav a{
   font-family: var(--mono);
   font-size: 14px;
   color: var(--muted);
   text-decoration: none;
-  padding: 2px 0;
+
   transition: transform .08s ease-out, color .12s ease;
 }
 
-.subnav a:hover{
+/* hover language (optional but consistent) */
+.nav .subnav a:hover{
   transform: translateY(-1px);
   color: var(--accent);
 }
 
-/* active subpage underline */
-.subnav a[aria-current="page"]{
+/* active subpage: underline only (no pill, no shadow) */
+.nav .subnav a[aria-current="page"]{
   color: var(--text);
   text-decoration: underline;
   text-decoration-color: var(--accent);
