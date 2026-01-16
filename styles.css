@@ -305,3 +305,29 @@ hr{
   font-weight: 700;
   color: var(--text);
 }
+
+/* table formatting */
+
+.matrix{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  font-size: 14px;
+}
+
+.matrix th,
+.matrix td{
+  border: 1px solid var(--stroke);
+  padding: 14px;
+  vertical-align: top;
+}
+
+.matrix th{
+  font-weight: 500;
+  color: var(--muted);
+  text-align: left;
+}
+
+.matrix strong{
+  color: var(--accent);
+}
