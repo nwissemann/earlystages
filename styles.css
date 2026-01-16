@@ -289,7 +289,7 @@ hr{
 .inline-image{
   display: block;
   margin: 28px auto;
-  max-width: 150px; /* adjust to taste */
+  max-width: 180px; /* adjust to taste */
   height: auto;
 
   image-rendering: pixelated;
