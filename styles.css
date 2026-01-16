@@ -289,11 +289,10 @@ hr{
 /* substack embed */
 .substack-embed{
   margin-top: 12px;
-  padding: 14px;
-  border-radius: 24px;
+  padding: 0;
 
-  background: var(--accent);
-  box-shadow: 3px 3px 0 #737373;
+  background: transparent;
+  box-shadow: none;
 
   display: inline-block;
 }
@@ -306,5 +305,7 @@ hr{
 
   border: none;
   background: #ffffff;
-  border-radius: 14px;
+  border-radius: 16px;
+
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
 }
