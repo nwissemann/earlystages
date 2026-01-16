@@ -286,26 +286,3 @@ hr{
 }
 
 
-/* substack embed */
-.substack-embed{
-  margin-top: 12px;
-  padding: 0;
-
-  background: transparent;
-  box-shadow: none;
-
-  display: inline-block;
-}
-
-/* iframe itself */
-.substack-embed iframe{
-  width: 100%;
-  max-width: 360px;
-  height: 320px;
-
-  border: none;
-  background: #ffffff;
-  border-radius: 16px;
-
-  box-shadow: 0 1px 2px rgba(0,0,0,.04);
-}
