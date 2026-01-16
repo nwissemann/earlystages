@@ -107,7 +107,7 @@ a{
 }
 
 /* prose */
-.prose p{ margin: 0 0 16px; }
+.prose p{ margin: 0 0 24px; }
 .prose ul{
   margin: 8px 0 16px;
   padding-left: 18px;
