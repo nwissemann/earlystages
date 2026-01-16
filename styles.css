@@ -285,4 +285,12 @@ hr{
   text-underline-offset: 6px;
 }
 
+/* inline image smoothing */
+.inline-image{
+  display: block;
+  margin: 28px auto;
+  max-width: 120px; /* adjust to taste */
+  height: auto;
 
+  image-rendering: pixelated;
+}
