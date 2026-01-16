@@ -294,3 +294,14 @@ hr{
 
   image-rendering: pixelated;
 }
+
+/* books page pink font */
+.book-title{
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.book-author{
+  font-weight: 700;
+  color: var(--text);
+}
